@@ -1,0 +1,46 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    background: #ebecec;
+    font-family: 'Lato', sans-serif;
+}
+
+.score-card{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    font-size: 20px;
+    color: red;
+}
+
+#score{
+    margin-left: 20px;
+}
+
+.grid{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: auto;
+    padding: 50px 100px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    align-items: center;
+    width: 100px;
+    height: 150px;
+    border-radius: 20px;
+    font-weight: 500;
+    margin: 20px;
+    color: red;
+    box-shadow: 5px 5px 8px #a7aaaf,
+                -5px -5px 8px #ffffff;
+}
